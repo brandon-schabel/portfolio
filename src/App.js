@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './components/Header.js';
-import Portfolio from './components/PortfolioView/Portfolio.js'
+
+// Components
+import Header from './components/Header';
+import Portfolio from './components/PortfolioView/Portfolio'
+import AboutMe from './components/AboutMe';
+
+//CSS
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 
@@ -16,6 +21,7 @@ class App extends Component {
       <div className="App">
         <Header></Header>
         <Portfolio></Portfolio>
+        <AboutMe></AboutMe>
       </div>
     );
   }

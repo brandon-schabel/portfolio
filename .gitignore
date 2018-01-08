@@ -13,3 +13,4 @@ yarn-error.log*
 /.changelog
 src/assets/images/*.*
 src/assets/pdfs/*.*
+AboutMeData.js
