@@ -6,7 +6,7 @@ class AboutMe extends Component {
         return (
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6"><img className="image" src={`../assets/profilePic.png`} alt='Profile' height="250" width="310"></img></div>
+                    <div className="col-md-6"><img className="image" src={require(`../assets/profilePic.png`)} alt='Profile'></img></div>
                     <div className="col-md-6">{AboutMeData.body}</div>
                 </div>
             </div>
