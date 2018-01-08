@@ -10,6 +10,7 @@ class Picture extends Component {
         return (
             <div className="col-md-4">
                 <img src={this.props.image} height="250" width="310"></img>
+                <br/>
             </div>
         );
     }
