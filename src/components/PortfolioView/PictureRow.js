@@ -3,12 +3,6 @@ import Picture from './Picture';
 
 // change to functional
 class PictureRow extends Component {
-    constructor(props) {
-        super(props);
-        console.log(props);
-        let picturesToDisplay = []
-    }
-    
     componentWillMount() {
         //instead of assigning this.picturesToDisplay, just invoke this.numOfPicsInRow();
         // then just push to this.picturesToDisplay

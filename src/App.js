@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import {Link, Route, Switch} from 'react-router-dom';
+import {Link, Route} from 'react-router-dom';
 import './App.css';
 
 // Components
-import Header from './components/Header';
+// import Header from './components/Header';
 import Portfolio from './components/PortfolioView/Portfolio';
 import AboutMe from './components/AboutMe';
 import Home from './components/Home';
@@ -13,10 +13,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 
 class App extends Component {
-
-  // const images = importAll(require.context('./images', false,
-  // /\.(png|jpe?g|svg)$/)); <img src={images['doggy.png']} />
-
   render() {
     return (
       <div className="App">

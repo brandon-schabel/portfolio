@@ -3,11 +3,6 @@ import PictureRow from './PictureRow';
 import './Portfolio.css';
 
 class Portfolio extends Component {
-    constructor(props) {
-        super(props);
-        let allImages = {};
-        let allPictureRows = [];
-    }
     
     componentWillMount() {
         // below we give it the path and file types we want to import
@@ -45,7 +40,7 @@ class Portfolio extends Component {
                 tempImageLinkArr = [];
             }
         }
-        console.log('linksSorted', linksSorted);
+
         for(let i = 0; i< linksSorted.length; i++) {
             // then we take the sorted arrays of 3 and pass them to PictureRow components
             allPictureRows.push(<PictureRow key={i} images={linksSorted[i]}></PictureRow>);
