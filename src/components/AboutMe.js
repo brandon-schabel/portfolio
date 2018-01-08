@@ -4,7 +4,7 @@ import AboutMeData from './AboutMeData';
 class AboutMe extends Component {
     render() {
         return (
-            <div>
+            <div className="container">
                 {AboutMeData.body}
             </div>
         );

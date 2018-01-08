@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link, Route, Switch } from 'react-router-dom';
 
 class Header extends Component {
     render() {
@@ -8,14 +9,14 @@ class Header extends Component {
                     <ul className="nav nav-justified">
                         <center>
                             <li>
-                                <a styles="text-decoration: none;" href="index.html" className="profileSubHeading">
+                                <Link to="/">
                                     <b>Home</b>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a styles="text-decoration: none;" href="aboutMe.html" className="profileSubHeading">
+                                <Link to="/about">
                                     <b>About</b>
-                                </a>
+                                </Link>
                             </li>
                             <li>
                                 <a
@@ -26,12 +27,9 @@ class Header extends Component {
                                 </a>
                             </li>
                             <li>
-                                <a
-                                    styles="text-decoration: none;"
-                                    href="portfolio.html"
-                                    className="profileSubHeading">
+                                <Link to="/portfolio">
                                     <b>Portfolio</b>
-                                </a>
+                                </Link>
                             </li>
                         </center>
                     </ul>
