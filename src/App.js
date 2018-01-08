@@ -24,7 +24,7 @@ class App extends Component {
           <ul className="nav nav-justified">
             <center>
               <li>
-                <Link to="/">
+                <Link to="/home">
                   <b>Home</b>
                 </Link>
               </li>
@@ -50,7 +50,7 @@ class App extends Component {
           </ul>
         </nav>
 
-        <Route path="/" component={Home} />
+        <Route path="/home" component={Home} />
         <Route path="/about" component={AboutMe} />
         <Route path="/portfolio" component={Portfolio} />
       </div>

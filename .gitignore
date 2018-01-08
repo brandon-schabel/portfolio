@@ -11,6 +11,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 /.changelog
-src/assets/images/*.*
-src/assets/pdfs/*.*
+src/assets
 AboutMeData.js
