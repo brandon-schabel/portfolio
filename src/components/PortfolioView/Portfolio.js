@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import PictureRow from './PictureRow';
+import './Portfolio.css';
 
 class Portfolio extends Component {
     constructor(props) {
