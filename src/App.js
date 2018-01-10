@@ -4,6 +4,7 @@ import './App.css';
 
 // Components import Header from './components/Header';
 import Portfolio from './components/PortfolioView/Portfolio';
+import Portfolio2 from './components/PortfolioView/Portfolio2';
 import AboutMe from './components/AboutMe';
 import Home from './components/Home';
 
@@ -15,8 +16,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <nav className="navbar navbar-default">
-          <div class="container-fluid">
+        <nav className="navbar navbar-inverse navbar-fixed-top">
+          <div className="container-fluid">
             <ul className="nav navbar-nav">
                 <li>
                   <Link to="/">
@@ -41,13 +42,20 @@ class App extends Component {
                     <b>Portfolio</b>
                   </Link>
                 </li>
+                <li>
+                  <Link to="/portfolio2">
+                    <b>Portfolio2</b>
+                  </Link>
+                </li>
             </ul>
           </div>
         </nav>
-
-        <Route exact path="/" component={Home}/>
-        <Route path="/about" component={AboutMe}/>
-        <Route path="/portfolio" component={Portfolio}/>
+        <div className='app-body'>
+          <Route exact path="/" component={Home}/>
+          <Route path="/about" component={AboutMe}/>
+          <Route path="/portfolio"/>
+          <Route path='/portfolio2' component={Portfolio2} />
+        </div>
       </div>
     );
   }

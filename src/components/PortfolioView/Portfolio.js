@@ -3,10 +3,14 @@ import PictureRow from './PictureRow';
 import './Portfolio.css';
 
 class Portfolio extends Component {
+    constructor(props) {
+        super(props);
+    }
     
+    // '../../assets/images'
     componentWillMount() {
         // below we give it the path and file types we want to import
-        this.allImages = this.importAll(require.context( '../../assets/images', false, /\.(png|jpe?g|svg)$/));
+        this.allImages = this.importAll(require.context('../../assets/images', false, /\.(png|jpe?g|svg)$/));
         
         //once we have all the pictures pass them to the organizeImages function
         this.allPictureRows = this.organizeImages(this.allImages);
@@ -51,8 +55,10 @@ class Portfolio extends Component {
 
     render() {
         return (
-            <div className="container">
-                {this.allPictureRows}
+            <div className="portfolio">
+                <div className="container portfolio">
+                    {this.allPictureRows}
+                </div>
             </div>
         );
     }
