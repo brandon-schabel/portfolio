@@ -4,7 +4,6 @@ import './App.css';
 
 // Components import Header from './components/Header';
 import Portfolio from './components/PortfolioView/Portfolio';
-import Portfolio2 from './components/PortfolioView/Portfolio2';
 import AboutMe from './components/AboutMe';
 import Home from './components/Home';
 
@@ -42,19 +41,13 @@ class App extends Component {
                     <b>Portfolio</b>
                   </Link>
                 </li>
-                <li>
-                  <Link to="/portfolio2">
-                    <b>Portfolio2</b>
-                  </Link>
-                </li>
             </ul>
           </div>
         </nav>
         <div className='app-body'>
           <Route exact path="/" component={Home}/>
           <Route path="/about" component={AboutMe}/>
-          <Route path="/portfolio"/>
-          <Route path='/portfolio2' component={Portfolio2} />
+          <Route path="/portfolio" component={Portfolio}/>
         </div>
       </div>
     );

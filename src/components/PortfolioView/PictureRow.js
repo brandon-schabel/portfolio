@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import Picture from './Picture';
+import PictureDisplay from './PictureDisplay';
+import {CloudinaryContext} from 'cloudinary-react';
+import config from '../../config'
 
 // change to functional
 class PictureRow extends Component {
@@ -10,16 +12,18 @@ class PictureRow extends Component {
     }
     
     numOfPicsInRow(){
+        
         let pictures = [];
         
-        pictures.push(<Picture key={Math.rand} image={this.props.images[0]}></Picture>)
+        pictures.push(
+        <PictureDisplay key={pictures.length} publicId={this.props.images[0]}></PictureDisplay>)
         
         if(this.props.images.length > 1) {
-            pictures.push(<Picture key={Math.rand} image={this.props.images[1]}></Picture>)
+            pictures.push(<PictureDisplay key={pictures.length} publicId={this.props.images[1]}></PictureDisplay>)
         } 
         
         if(this.props.images.length > 2) {
-            pictures.push(<Picture key={Math.rand} image={this.props.images[2]}></Picture>)
+            pictures.push(<PictureDisplay key={pictures.length} publicId={this.props.images[2]}></PictureDisplay>)
         }
         
         return pictures;
@@ -28,7 +32,11 @@ class PictureRow extends Component {
     render() {
         return (
             <div className="row" >
-                {this.picturesToDisplay}
+            <CloudinaryContext cloudName={config.cloudinaryCloudName}>
+                {
+                    this.picturesToDisplay
+                }
+            </CloudinaryContext>
             </div>
         );
     }

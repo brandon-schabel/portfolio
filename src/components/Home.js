@@ -1,17 +1,7 @@
 import React, { Component } from 'react';
-import './Home.css'
-import homeBackgroundImage from '../assets/images/1.jpg';
+import './Home.css';
 
 class Home extends Component {
-    constructor(props) {
-        super(props);
-        let styles = {
-            backgroundImage: homeBackgroundImage,
-            backgroundSize: 'cover',
-            overflow: 'hidden'
-        }
-    }
-    
     render() {
         return (
             <div style={this.styles} className="home-style">

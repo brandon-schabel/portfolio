@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import AboutMeData from './AboutMeData';
+import config from '../config';
 import './AboutMe.css';
 
 class AboutMe extends Component {
@@ -9,7 +9,7 @@ class AboutMe extends Component {
                 <div className="container" >
                     <div className="row">
                         <div className="col-md-6"><img className="about-me-image" src={require(`../assets/profilePic.png`)} alt='Profile' ></img></div>
-                        <div className="col-md-6">{AboutMeData.body}</div>
+                        <div className="col-md-6">{config.AboutMe}</div>
                     </div>
                 </div>
             </div>
