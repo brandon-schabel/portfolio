@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './PictureDisplay.css';
 // change to functional component
 import {Image, Transformation} from 'cloudinary-react';
