@@ -1,3 +1,16 @@
+In order to configure the application create a config file with these parameters
+const config = {
+    AboutMe: "",
+    cloudinaryCloudName:'',
+    cloundinaryPicturePortfolio: '',
+    API_KEY: 
+}
+
+export default config;
+
+I used Cloudinary to host my images, so if you would like to use the app as is, you will need to create an account with them.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
