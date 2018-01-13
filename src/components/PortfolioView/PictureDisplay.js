@@ -7,12 +7,12 @@ import LazyLoad from 'react-lazy-load'
 const Picture = (props) => {
     return (
         <div className="col-md-4 pictureDisplay">
-            <LazyLoad height={200}>
+            <LazyLoad height={400}>
                 <Image key={Math.rand} publicId={props.publicId}>
                     <Transformation
                         crop="scale"
-                        width="300"
-                        height="200"
+                        width="600"
+                        height="400"
                         dpr="auto"
                         responsive_placeholder="blank"/>
                 </Image>

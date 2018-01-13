@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Link, Route} from 'react-router-dom';
+import './Header.css';
 
 class Header extends Component {
     render() {
@@ -7,28 +8,25 @@ class Header extends Component {
             <div>
                 <nav className="navbar navbar-inverse navbar-fixed-top">
                   <div className="container-fluid">
-                    <ul className="nav navbar-nav">
+                    <ul className="nav navbar-nav" >
                         <li>
                           <Link to="/">
-                            <b>Home</b>
+                            Home
                           </Link>
                         </li>
                         <li>
                           <Link to="/about">
-                            <b>About</b>
+                            About
                           </Link>
                         </li>
                         <li>
-                          <a
-                            styles="text-decoration: none;"
-                            href="./sourceFiles/Resume.pdf"
-                            className="profileSubHeading">
-                            <b>Resume</b>
-                          </a>
+                          <Link to="/resume">
+                            Resume
+                          </Link>
                         </li>
                         <li>
                           <Link to="/portfolio">
-                            <b>Portfolio</b>
+                            Portfolio
                           </Link>
                         </li>
                     </ul>

@@ -3,7 +3,18 @@ const config = {
     AboutMe: "",
     cloudinaryCloudName:'',
     cloundinaryPicturePortfolio: '',
-    API_KEY: 
+    API_KEY: ,
+    resume: {
+        school: '',
+        degree: '',
+        gpa: '',
+        projectCourseWork: '',
+        skills: '',
+        applicableProjects: '',
+        workExperience: '',
+        involvementVolunteering: '',
+        interest: ''
+    }
 }
 
 export default config;

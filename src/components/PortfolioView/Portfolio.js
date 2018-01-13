@@ -76,7 +76,7 @@ class Portfolio extends Component {
     render() {
         return (
             <div className="portfolio">
-                <div className="container portfolio">
+                <div className="container-fluid portfolio">
                     {this.state.picureRows}
                 </div>
             </div>

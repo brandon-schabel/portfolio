@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {Link, Route} from 'react-router-dom';
 import './App.css';
 
 // Components
@@ -9,6 +8,7 @@ import Routes from './components/Routes';
 //CSS
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
+//import 'mdbootstrap/css/mdb.min.css'
 
 class App extends Component {
   render() {

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PictureDisplay from './PictureDisplay';
 import {CloudinaryContext} from 'cloudinary-react';
 import config from '../../config'
+import './PictureRow.css'
 
 // change to functional
 class PictureRow extends Component {
