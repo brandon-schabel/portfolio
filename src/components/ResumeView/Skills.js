@@ -6,7 +6,7 @@ const Skills = () => {
         <div>
             <h3>Skills</h3>
             <ul>
-                {config.resume.skills.map((skill, key) => <li key={key}>{skill}</li>)}
+                {config.resume.skills.map((skill, key) => <li key={key} >{skill}</li>)}
             </ul>
         </div>
     );

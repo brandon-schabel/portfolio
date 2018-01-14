@@ -8,7 +8,7 @@ const config = {
         school: '',
         degree: '',
         gpa: '',
-        projectCourseWork: '',
+        projectedCourseWork: '',
         skills: '',
         applicableProjects: '',
         workExperience: '',

@@ -4,10 +4,29 @@ import config from '../../config';
 const ProjectedCoursework = () => {
     return (
         <div>
-            <h3>Projected Coursework</h3>
-            <ul>
-                {config.resume.projectedCourseWork.map( (course, key) => <li key={key}>{course}</li>)}
-            </ul>
+            <div><h3>Projected Coursework</h3></div>
+            <div className="col-6">
+                <ul>
+                    
+                    {config.resume.projectedCourseWork.map( (course, key) => {
+                            if(key % 2 === 0){ 
+                                return <li key={key}>{course}</li>
+                            }
+                        }
+                    )}
+                </ul>
+            </div>
+            <div className="col-6">
+                <ul>
+                    
+                    {config.resume.projectedCourseWork.map( (course, key) => {
+                            if(key % 2 !== 0){ 
+                                return <li key={key}>{course}</li>
+                            }
+                        }
+                    )}
+                </ul>
+            </div>
         </div>
     );
 };

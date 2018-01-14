@@ -1,5 +1,4 @@
-import React, {Component} from 'react';
-import config from '../../config';
+import React from 'react';
 import './Resume.css';
 
 //components
@@ -13,7 +12,7 @@ import InvolvementVolunteering from './InvolvementVolunteering';
 
 const Resume = () => {
     return (
-        <div >
+        <div className="resume container">
             <Education></Education>
             <ProjectedCoursework></ProjectedCoursework>
             <ApplicableProjects></ApplicableProjects>
