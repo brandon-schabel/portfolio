@@ -11,3 +11,12 @@ div {
     text-align:center;
 }
 */
+
+.resume {
+    background-color: #3399ff;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}

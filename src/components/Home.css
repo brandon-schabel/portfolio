@@ -1,11 +1,18 @@
 
-/*
-.home-style {
-    background-image: url('../assets/images/1.jpg'); 
-    font-weight: bold;
-    overflow: hidden;
-    background-size: cover;
-    padding-bottom: 70%;
-    background-size: cover;
+.home {
+    padding-bottom: 100vh;
 }
-*/
+
+
+/* for mobile */
+@media only screen and (max-width: 600px) {
+    .siteTitle {
+    }
+}
+
+
+/* for desktop */
+@media only screen and (min-width: 768px) {
+    .home {
+    }
+}

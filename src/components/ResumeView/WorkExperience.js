@@ -7,14 +7,14 @@ const WorkExperience = () => {
         <div>
             {config.resume.workExperience.map( (item, key) => {
                 return <div key={key}>
-                        <h3>Work Experience</h3>
-                        <div>{item.titleAndBasicInfo}</div>
-                            <ul>
-                                {item.duties.map( (duty, dutyKey) => {
-                                    return <li key={dutyKey}>{duty}</li> // double map if to display duties under each job
-                                })}
-                            </ul>
-                        </div>
+                            <h3>Work Experience</h3>
+                            <h4>{item.titleAndBasicInfo}</h4>
+                                <ul>
+                                    {item.duties.map( (duty, dutyKey) => {
+                                        return <li key={dutyKey}>{duty}</li> // double map if to display duties under each job
+                                    })}
+                                </ul>
+                            </div>
             })}
         </div>
     );
