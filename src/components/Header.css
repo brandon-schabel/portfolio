@@ -5,19 +5,24 @@ div {
 }
 */
 .navbar {
+    background-color: #424242 !important;
+    border-color: #424242 !important;
     margin-bottom: 0 !important;
-    border-radius: 0px !important
+    border-radius: 0px !important;
 }
 
 .navbar a {
-    color: #9d9d9d;
-}
-
-.siteTitle {
-    margin-top: 10%;
     color: white;
 }
 
-.siteSubHeading {
-    color: white;
+.navbar a:hover {
+    color: #bdbdbd;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.navbar-brand :hover {
+    color: #bdbdbd !important;
 }

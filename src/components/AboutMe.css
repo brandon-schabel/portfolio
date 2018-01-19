@@ -14,3 +14,26 @@ div {
     background-color: #1e1e1e;
 }
 */
+.about-me {
+    background-color:#1976d2;
+    padding-bottom: 100vh;
+}
+.picture {
+    margin-top: 3%;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 100%;
+    border-color: black;
+    border-width: 1%;
+    border: 1px solid #1b1b1b
+}
+
+.aboutMeText {
+    color: white;
+}
+
+@media only screen and (min-width: 768px) {
+    .aboutMeText{
+        margin-top: 20%;
+    }
+}

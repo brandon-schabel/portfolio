@@ -5,10 +5,8 @@ import './App.css';
 import Header from './components/Header';
 import Routes from './components/Routes';
 
-
 //CSS
 import 'bootstrap/dist/css/bootstrap.min.css'; 
-//import 'bootstrap/dist/css/bootstrap-theme.css';
 
 
 class App extends Component {
@@ -21,5 +19,5 @@ class App extends Component {
     );
   }
 }
-
+  
 export default App;

@@ -15,17 +15,17 @@ const Header = () => {
     }, {
       name: 'Resume',
       link: '/resume'
-    }, {
+    },/* {
       name: 'Portfolio',
       link: '/portfolio'
-    }
+    }*/
   ];
 
   return (
     <Navbar inverse collapseOnSelect className="navbar">
 		<Navbar.Header>
 			<Navbar.Brand>
-				{config.siteTitle}
+				<Link to="/">{config.siteTitle} </Link>
 			</Navbar.Brand>
 			<Navbar.Toggle />
 		</Navbar.Header>

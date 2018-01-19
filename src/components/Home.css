@@ -3,7 +3,26 @@
     padding-bottom: 100vh;
 }
 
+.siteBanner {
+    background-color: #424242;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    margin-top: 20%;
+    padding-bottom: 2%;
+}
 
+.siteTitle {
+    margin-top: 10%;
+    color: white;
+}
+
+.siteSubHeading {
+    color: white;
+}
 /* for mobile */
 @media only screen and (max-width: 600px) {
     .siteTitle {
