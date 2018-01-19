@@ -5,7 +5,7 @@ const ProjectedCoursework = () => {
     return (
         <div>
             <div><h3>Projected Coursework</h3></div>
-            <div className="col-6">
+            <div className="col-md-6">
                 <ul>
                     
                     {config.resume.projectedCourseWork.map( (course, key) => {
@@ -16,7 +16,7 @@ const ProjectedCoursework = () => {
                     )}
                 </ul>
             </div>
-            <div className="col-6">
+            <div className="col-md-6">
                 <ul>
                     
                     {config.resume.projectedCourseWork.map( (course, key) => {

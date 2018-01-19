@@ -4,7 +4,7 @@ import config from '../config';
 
 class Home extends Component {
     styles = {
-        backgroundColor: '#ff4d4d' //make adjustable
+        backgroundColor: '#f8bbd0' //make adjustable
     }
     render() {
         return (
