@@ -2,13 +2,13 @@ import React from 'react';
 import './Resume.css';
 
 //components
-import ApplicableProjects from './ApplicableProjects';
-import Education from './Education';
-import Interest from './Interest';
-import ProjectedCoursework from './ProjectedCoursework';
-import Skills from './Skills'
-import WorkExperience from './WorkExperience'
-import InvolvementVolunteering from './InvolvementVolunteering';
+import ApplicableProjects from './SubComponents/ApplicableProjects';
+import Education from './SubComponents/Education';
+import Interest from './SubComponents/Interest';
+import ProjectedCoursework from './SubComponents/ProjectedCoursework';
+import Skills from './SubComponents/Skills'
+import WorkExperience from './SubComponents/WorkExperience'
+import InvolvementVolunteering from './SubComponents/InvolvementVolunteering';
 
 const Resume = () => {
     return (

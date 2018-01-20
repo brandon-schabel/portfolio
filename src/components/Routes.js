@@ -3,7 +3,7 @@ import {Route} from 'react-router-dom';
 
 //Components
 import Portfolio from './PortfolioView/Portfolio';
-import AboutMe from './AboutMe';
+import AboutMe from './AboutMeView/AboutMe';
 import Home from './Home';
 import Resume from './ResumeView/Resume'
 const Routes = () => {

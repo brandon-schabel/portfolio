@@ -1,5 +1,5 @@
 import React from 'react';
-import ResumeConfig from './ResumeConfig'
+import ResumeConfig from '../ResumeConfig'
 
 const Education = () => {
     return (
