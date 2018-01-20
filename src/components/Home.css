@@ -23,6 +23,7 @@
 .siteSubHeading {
     color: white;
 }
+
 /* for mobile */
 @media only screen and (max-width: 600px) {
     .siteTitle {

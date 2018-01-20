@@ -3,10 +3,6 @@ import config from '../config';
 import './AboutMe.css';
 
 class AboutMe extends Component {
-    styles = {
-        //maxHeight: '100%',
-        //maxWidth: '100%'
-    }
     render() {
         return (
             <div className="about-me">

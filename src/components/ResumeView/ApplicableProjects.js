@@ -1,6 +1,5 @@
 import React from 'react';
 import config from '../../config';
-import './ApplicableProjects.css';
 
 const ApplicableProjects = () => {
     return (
