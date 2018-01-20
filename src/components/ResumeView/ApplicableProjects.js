@@ -1,12 +1,12 @@
 import React from 'react';
-import config from '../../config';
+import ResumeConfig from './ResumeConfig'
 
 const ApplicableProjects = () => {
     return (
         <div>
             <h3>Applicable Projects</h3>
             <ul >
-                {config.resume.applicableProjects.map((project, key) => <li key={key}>{project}</li>)}
+                {ResumeConfig.resume.applicableProjects.map((project, key) => <li key={key}>{project}</li>)}
             </ul>
         </div>
     );

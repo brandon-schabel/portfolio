@@ -1,12 +1,12 @@
 import React from 'react';
-import config from '../../config';
+import ResumeConfig from './ResumeConfig'
 
 const Skills = () => {
     return (
         <div>
             <h3>Skills</h3>
             <ul>
-                {config.resume.skills.map((skill, key) => <li key={key} >{skill}</li>)}
+                {ResumeConfig.resume.skills.map((skill, key) => <li key={key} >{skill}</li>)}
             </ul>
         </div>
     );

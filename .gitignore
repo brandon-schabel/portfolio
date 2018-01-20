@@ -13,3 +13,6 @@ yarn-error.log*
 /.changelog
 src/assets
 config.js
+AboutMeConfig.js
+ResumeConfig.js
+SiteStyleConfig.js

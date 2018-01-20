@@ -1,12 +1,12 @@
 import React from 'react';
-import config from '../../config';
+import ResumeConfig from './ResumeConfig'
 
 const Education = () => {
     return (
         <div>
             <h3>Education</h3>
-                <div>{config.resume.school}</div>
-                <div>{config.resume.degree}</div>
+                <div>{ResumeConfig.resume.school}</div>
+                <div>{ResumeConfig.resume.degree}</div>
         </div>
     );
 };

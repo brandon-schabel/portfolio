@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import './Home.css';
-import config from '../config';
+import SiteStyleConfig from '../SiteStyleConfig';
 
 class Home extends Component {
     styles = {
-        backgroundColor: '#f8bbd0' //make adjustable
+        backgroundColor: SiteStyleConfig.home.backgroundColor 
     }
     render() {
         return (
@@ -13,13 +13,13 @@ class Home extends Component {
                     <div className="siteBanner">
                         <div className="siteTitle row">
                             <div class="container">
-                                <h1 >{config.siteTitle}</h1>
+                                <h1 >{SiteStyleConfig.home.siteTitle}</h1>
                             </div>
                         </div>
 
                         <div className="row siteSubHeading">
                             <div class="container">
-                                <h3>{config.siteSubHeading}</h3>
+                                <h3>{SiteStyleConfig.home.siteSubHeading}</h3>
                             </div>
                         </div>
                     </div>

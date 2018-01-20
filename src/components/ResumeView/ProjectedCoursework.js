@@ -1,5 +1,5 @@
 import React from 'react';
-import config from '../../config';
+import ResumeConfig from './ResumeConfig'
 
 const ProjectedCoursework = () => {
     return (
@@ -8,7 +8,7 @@ const ProjectedCoursework = () => {
             <div className="col-md-6">
                 <ul>
                     
-                    {config.resume.projectedCourseWork.map( (course, key) => {
+                    {ResumeConfig.resume.projectedCourseWork.map( (course, key) => {
                             if(key % 2 === 0){ 
                                 return <li key={key}>{course}</li>
                             }
@@ -19,7 +19,7 @@ const ProjectedCoursework = () => {
             <div className="col-md-6">
                 <ul>
                     
-                    {config.resume.projectedCourseWork.map( (course, key) => {
+                    {ResumeConfig.resume.projectedCourseWork.map( (course, key) => {
                             if(key % 2 !== 0){ 
                                 return <li key={key}>{course}</li>
                             }

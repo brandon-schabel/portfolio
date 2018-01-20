@@ -1,3 +1,5 @@
+/* Rename to AboutMeConfig.js and fill in accordingly */
+
 const AboutMeConfig = {
     AboutMe: "Lorem ipsum dolor sit amet, saperet necessitatibus cu sit, ut nonumy senserit ph" +
             "ilosophia eum. Alii dicit ullamcorper nec ea, nam eu probo minim dissentiunt, de" +

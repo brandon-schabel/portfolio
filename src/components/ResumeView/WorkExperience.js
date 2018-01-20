@@ -1,11 +1,11 @@
 import React from 'react';
-import config from '../../config';
+import ResumeConfig from './ResumeConfig'
 
 const WorkExperience = () => {
 
     return (
         <div>
-            {config.resume.workExperience.map( (item, key) => {
+            {ResumeConfig.resume.workExperience.map( (item, key) => {
                 return <div key={key}>
                             <h3>Work Experience</h3>
                             <h4>{item.titleAndBasicInfo}</h4>
